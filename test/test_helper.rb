@@ -18,11 +18,10 @@ if ActiveSupport::TestCase.respond_to?(:fixture_path=)
   ActiveSupport::TestCase.fixtures :all
 end
 
-require 'minitest/autorun'
+require 'maxitest/autorun'
 require 'minitest/spec'
 require 'capybara/rails'
 require 'capybara/poltergeist'
-require 'pry'
 
 module AcceptanceHelper
   extend Minitest::Spec::DSL
